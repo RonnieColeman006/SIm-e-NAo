@@ -1,0 +1,40 @@
+/*Resetar*/
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.main{
+    background-color: rgb(37, 14, 139);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#no{
+    background-color: rgb(129, 17, 17);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 14px
+}
+#yes{
+    background-color: rgb(30, 95, 5);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 14px
+}
+
+.btn-area{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;;
+}
